@@ -8,17 +8,19 @@ package com.gamblingsimulator;
 import java.util.Scanner;
 
 public class GamblingSimulator {
+    /*
+     * Gambler bets in every game to win or loose some stake. He exits if stake reaches maximum or minuimum limit.
+     */
+
+    //initializing variables
+    static int stake=100;
+    static int bet=1;
     public static void main(String[] ar) {
-        /*
-         * Gambler bets in every game to win or loose some stake. He exits if stake reaches maximum or minuimum limit.
-         */
 
         //welcome message
-        System.out.println("Welcome to gambling simulator.");
+        System.out.println("Welcome to gambling simulator. ");
 
-        //initializing variables
-        int stake=100;
-        int bet=1;
+
 
     }
 }
