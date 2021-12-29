@@ -15,5 +15,10 @@ public class GamblingSimulator {
 
         //welcome message
         System.out.println("Welcome to gambling simulator.");
+
+        //initializing variables
+        int stake=100;
+        int bet=1;
+
     }
 }
