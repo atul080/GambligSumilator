@@ -13,7 +13,11 @@ public class GamblingSimulator {
     public static int STAKE=100;
     public static final int BET=1;
 
-    //BET METHOD
+    /*
+     *   Declared a checkBet method.
+     *   @param int
+     *   It accepts a bet value passed from main for win or loose.
+     */
     public static void checkBet(int betVal)
     {
         if(betVal==BET)
@@ -29,12 +33,10 @@ public class GamblingSimulator {
     public static void main(String[] ar) {
         //welcome message
         System.out.println("Welcome to gambling simulator. ");
-
         //making object of Random Class and getting a random bet value between 0 and 1
         Random rm=new Random();
         int betVal=rm.nextInt(2);
-        
         //calling checkBet method to check if gambler won the bet or not.
-        GamblingSimulator.checkBet(betVal);
+        checkBet(betVal);
     }
 }
